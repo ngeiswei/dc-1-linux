@@ -7,7 +7,7 @@ GNU/Linux on the DC-1 from Daylight Computer.
 
 ### Hardware
 
-- CPU: MediaTek Helio G99
+- CPU: MediaTek MT8781V Helio G99
   - Cores: 8
   - Performance Cores: 2 x Cortex-A76
   - Efficiency Cores: 6 x Cortex-A55
