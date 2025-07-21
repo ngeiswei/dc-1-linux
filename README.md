@@ -37,7 +37,20 @@ GNU/Linux on the DC-1 from Daylight Computer.
 
 ## Resources
 
+- [Daylight Hacker Wiki](https://www.daylighthacker.wiki/)
 - [Daylight Computer FAQ](https://daylightcomputer.com/faq)
 - [Daylight Hacker Wiki](https://www.clevrpwn.com/projects/daylight-hacker-wiki)
 - [Daylight Hacker Wiki Gitlab](https://gitlab.com/daylight-hacker-wiki/daylight-hacker-wiki)
 - [Discord Channel linux-on-dc1](https://discord.com/channels/1258508303508443247/1311713778773000192)
+
+## Root your DC-1 Device
+
+1. From your DC-1, unlock `Developer options`.  To do that go to
+   `Settings > About tablet` and tap `Build number` seven times.  This
+   will unlock `Developer options` under `Settings > System`.  In
+   `Developer options` turn on USB debugging.
+2. From your GNU/Linux box, install fastboot tools.  On a Debian based
+   distribution it should be
+   ```bash
+   sudo apt install fastboot
+   ```
